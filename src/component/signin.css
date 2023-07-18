@@ -1,0 +1,232 @@
+.img {
+    height:100px;
+    margin-left:100px; 
+    margin:30px;
+}
+.align {
+    text-align: left;
+}
+*{
+    padding:0;
+    margin: 0;
+}
+.head {
+    font-size:15px;
+    padding:90px;
+    font-family: "roboto";   
+}
+.nav-style {
+    color: black;
+    background-color: white;
+}
+.container1 {
+    background-color: #f8f2f8;
+    padding:0%;
+    margin-top: 0%;
+}
+.card {
+    
+    margin: 35px;
+    border-radius: 20px;
+}
+.creat-head {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    /* font-family: "roboto"; */
+}
+.para {
+    text-align: center;
+    font-size: 8px;
+    color:rgb(45, 70, 161);
+}
+.button {
+    height:25px;
+    border-radius: 10px;
+    text-align: center;
+    background-color:white;
+    border: none;
+   font-weight: bold;
+   font-size: 12px;  
+}
+.ml{
+    margin-left: 150px;
+}
+.mr{
+    margin-right: 150px;
+}
+a{
+    text-decoration: none;
+}
+
+.form-group {
+    margin-left: 20PX;
+    margin-right:20px ;
+    padding-top: 10px;
+}
+.form-group label{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-control {
+    border-radius:10px ;
+    
+    height:30px ;
+    font-size: 12px;
+
+}
+
+#number {
+    border-radius:10px ;
+    height:30px ;
+    font-size: 12px;
+}
+.lb-lable{
+    font-size: 10px;
+    padding: 8px;
+
+}
+.fa-brands{
+    margin: 8px;
+}
+.img-fluid {
+    height:50vh;
+    
+      margin-top: 15px;
+
+     margin-left: 40px; 
+    border-radius: 30px;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color:black;
+}
+
+.menu ul{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    color:black;
+    padding:20px;
+    display: block;
+}
+.menu li:hover{
+    background-color:rgb(141, 141, 151);
+}
+.toggle{
+    position: absolute;
+    top:15px;
+    right: 16px;
+    display: none;
+    font-size: 20px;
+}
+@media (max-width:768px){
+    .toggle{
+        display: block;
+    }
+    .menu{
+        display: none;
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu ul{
+        flex-direction: column;
+       width: 100%;
+        background-color: rgb(210, 219, 219);
+    }
+    .menu ul li{
+        text-align: center;
+    }
+    .menu ul li a{
+        padding: 12px 16px;
+    }
+    .menu.active{
+        display: flex;
+    }
+}
+
+
+.p{
+    font-size: 10px;
+    color: grey;
+    
+}
+
+.form-check {
+    /* margin-left:20px ;
+    margin-right:20px ;
+    margin-top: 10px; */
+    margin: 20px;
+}
+.form-check-input:checked{
+    background-color:green;
+    }
+ 
+#icon-right{
+   /* float: left; */
+   margin-left:20px;
+}
+.rbtnl{
+    margin-left: 20px;
+}
+#rbtn-r{
+    margin-left: 20px;
+    
+}
+.btn-register{
+    background-color:rgb(37, 37, 87);
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}  
+.paragrapgh {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 10px;
+}
+.image2 {
+    height: 60px;
+    
+    margin-top: 20px;
+     /* margin-left: 60px;  */
+    border-radius: 5px; 
+
+}
+
+.p3 {
+    color:white;
+    font-size: 13px;
+    text-align: center;
+    
+}
+.rec {
+    display: none;
+}
+.pa {
+    font-size: 10px;
+    color: gray;
+}
+.h1 {
+    font-size:12px;
+    margin-top:5px;
+    font-weight: bold;
+}
